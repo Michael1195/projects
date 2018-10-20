@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FindPic</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="main">
+
+        <header class="header">
+            <button class="btn-fav" type="button">Избранное</button>
+            <form class="form">
+                <input class="input" type="text" placeholder="Enter search query" required>
+                <button class="button" type="submit">Поиск</button>
+            </form>
+        </header>
+
+        <section>
+            <h1 class="text-fav" hidden="hidden">Избранное</h1>
+            <div class="gallery">
+                <ul id="cards"></ul>
+                <div class="js-slider">
+                </div>
+            </div>
+            <button class="button more js-button" type="button" hidden="hidden">Показать еще</button>
+        </section>
+
+    </main>
+
+    <div class="spinners">
+        <div class="loader">
+        </div>
+    </div>
+
+</body>
+
+</html>
